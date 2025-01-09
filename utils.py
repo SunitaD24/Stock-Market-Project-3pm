@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import pandas as pd
 
 class StockAPI:
 
@@ -53,5 +54,4 @@ class StockAPI:
         )
         fig.update_layout(width=1200, height=800)
         return fig
-        
         
